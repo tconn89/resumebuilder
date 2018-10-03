@@ -9,8 +9,8 @@ class App extends Component {
 
           body{
             box-sizing: border-box;
-            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.55;': ''}
-            font-family: -apple-system;
+            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.65;': ''}
+            font-family: arial;
             background: #fff;
           }
           .App {
@@ -54,7 +54,8 @@ class App extends Component {
           }
 
           .Margin {
-            padding: 0 80px;
+            padding: 80px 40px;
+            padding-bottom: 0;
           }
           .icon { 
             ${process.env.NODE_ENV === 'production' ? 'font-size: 30px;': ''}
@@ -76,7 +77,7 @@ class App extends Component {
             font-weight: bold;
           }
           .icon-container.education {
-            margin-top: 5px;
+            margin-top: 2px;
           }
           .work {
             display: -webkit-box;
@@ -126,7 +127,8 @@ class App extends Component {
           }
 
           .description li {
-            font-size: 14px;
+            font-size: 16px;
+            line-height: 18px;
           }
           #title-name {
             font-size:2em;
