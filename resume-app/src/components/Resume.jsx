@@ -3,7 +3,7 @@ import Section from './Section'
 import WorkItem from './WorkItem'
 import Result from './Result'
 import SkillColumn from './SkillColumn'
-import Config from '../config/ProduceBox.js'
+import Config from '../config/Distil.js'
 
 class Resume extends Component {
   render() {
@@ -44,23 +44,36 @@ class Resume extends Component {
             <SkillColumn 
               title="Backend"
               skillList={[{name:'Node JS', stars: 5},
-                          {name: 'Unix', stars: 4},
-                          {name: 'SQL', stars: 5}]}
+                          {name: 'Data Management', stars: 5},
+                          {name: 'SQL', stars: 5},
+                          {name: 'Unix', stars: 4}]}
             />
             <SkillColumn 
               title="Frontend"
-              skillList={[{name:'React', stars: 5},
-                          {name: 'HTML', stars: 5},
-                          {name: 'CSS', stars: 5}]}
+              skillList={[{name: 'React', stars: 5},
+                          {name: 'React Native', stars: 5},
+                          {name: 'Dashboards', stars: 5},
+                          {name: 'Responsive Design', stars: 5},
+                        ]}
             />
           </div>
           <div className="row">
             <SkillColumn 
+              title="General"
+              skillList={[
+                          {name: 'Inventory Management', stars: 5},
+                          {name: 'Problem Solving', stars: 5},
+                          {name: 'User Experience', stars: 4},
+                          {name: 'Game Theory', stars: 4},
+                        ]}
+            />
+            <SkillColumn 
               title="Dev-ops"
               skillList={[
+                          {name: 'Nginx', stars: 5},
                           {name: 'Lets-Encrypt', stars: 4},
                           {name: 'Firebase', stars: 4},
-                          {name:'AWS', stars: 3},
+                          {name: 'AWS', stars: 3},
                         ]}
             />
           </div>

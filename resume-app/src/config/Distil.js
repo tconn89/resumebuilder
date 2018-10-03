@@ -1,7 +1,7 @@
 
 export default {
-  date: '10/02/18',
-  profile: 'Looking for a competitive company to make an impact on the health and food industry.',
+  date: '10/03/18',
+  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
 
   experience: [
     {
@@ -10,8 +10,8 @@ export default {
       dateRange: 'feb 2018 - sept 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
-                'Given the provided UX mockups, executed an android software solution with React Native.',
+      results: ['Given the provided UX mockups, executed an android software solution with React Native.',
+                'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Managed a Node server and oversaw improvements in error handling and readability.',
@@ -48,5 +48,12 @@ export default {
                 'Improved performance on Postgres database queries.']
     },
   ],
-  skills: [],
+  skills: [{
+    name: 'Frontend',
+    list: [ {name: 'React', stars: 5},
+            {name: 'React Native', stars: 5},
+            {name: 'Responsive Design', stars: 5},
+            {name: 'Dashboards', stars: 5},
+            {name: 'Responsive Design', stars: 5}]
+  }],
 }
