@@ -11,7 +11,7 @@ npm install -g html-pdf
 html-pdf output/test1.html output/pdf/resume.pdf
 ```
 
-If you'd like to change the content of the resume, edit one of the configuration files.  For example `config/Distil.js`
+If you'd like to change the content of the resume, edit one of the configuration files.  For example `resume-app/src/config/Distil.js`
 
 ## Issues
 [x] Need to use Auto prefixer for `html-pdf` to understand flex styles. - See https://autoprefixer.github.io/  

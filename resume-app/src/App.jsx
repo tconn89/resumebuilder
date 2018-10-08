@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Resume from './components/Resume'
+import Config from './config/Contact.js'
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
 
           body{
             box-sizing: border-box;
-            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.65;': ''}
+            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.6;': ''}
             font-family: arial;
             background: #fff;
           }
@@ -164,10 +165,10 @@ class App extends Component {
           }
 
           ` }} />
-        <div id="title-name">Ty Connors</div>
-        <strong> Fullstack Developer </strong>
+        <div id="title-name">{Config.name}</div>
+        <strong> {Config.role} </strong>
         <p className="App-intro" >
-        <code>  Raleigh, NC  |  tconn89@gmail.com  |  (919) 205 8593 </code>
+        <code>  {Config.address}  |  {Config.email}  |  {Config.phone} </code>
         </p>
         < Resume/>
       </div>

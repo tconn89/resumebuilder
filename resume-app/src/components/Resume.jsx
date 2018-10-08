@@ -3,8 +3,11 @@ import Section from './Section'
 import WorkItem from './WorkItem'
 import Result from './Result'
 import SkillColumn from './SkillColumn'
-import Config from '../config/Distil.js'
+import Config from '../config/Ipreo.Devops.js'
 
+let skillsFirstRow = [ Config.skills[0], Config.skills[1] ]
+let skillsSecondRow = [ Config.skills[2], Config.skills[3] ]
+let skills = [skillsFirstRow, skillsSecondRow]
 class Resume extends Component {
   render() {
     return (
@@ -40,43 +43,13 @@ class Resume extends Component {
           </WorkItem>
         </Section>
         <Section title='Skills'>
-          <div className="row">
-            <SkillColumn 
-              title="Backend"
-              skillList={[{name:'Node JS', stars: 5},
-                          {name: 'Data Management', stars: 5},
-                          {name: 'SQL', stars: 5},
-                          {name: 'Unix', stars: 4}]}
-            />
-            <SkillColumn 
-              title="Frontend"
-              skillList={[{name: 'React', stars: 5},
-                          {name: 'React Native', stars: 5},
-                          {name: 'Dashboards', stars: 5},
-                          {name: 'Responsive Design', stars: 5},
-                        ]}
-            />
-          </div>
-          <div className="row">
-            <SkillColumn 
-              title="General"
-              skillList={[
-                          {name: 'Inventory Management', stars: 5},
-                          {name: 'Problem Solving', stars: 5},
-                          {name: 'User Experience', stars: 4},
-                          {name: 'Game Theory', stars: 4},
-                        ]}
-            />
-            <SkillColumn 
-              title="Dev-ops"
-              skillList={[
-                          {name: 'Nginx', stars: 5},
-                          {name: 'Lets-Encrypt', stars: 4},
-                          {name: 'Firebase', stars: 4},
-                          {name: 'AWS', stars: 3},
-                        ]}
-            />
-          </div>
+          { skills.map((row, i) => <div key={i} className="row">
+            { row.map((skill, j) => <SkillColumn 
+              key={j}
+              title={skill.name}
+              skillList={skill.list}
+            />)}
+          </div>)}
         </Section>
         <Section title="References">
           <div style={{padding: '8px'}}>
