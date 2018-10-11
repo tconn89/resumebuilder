@@ -10,7 +10,7 @@ class App extends Component {
 
           body{
             box-sizing: border-box;
-            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.6;': ''}
+            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.65;': ''}
             font-family: arial;
             background: #fff;
           }

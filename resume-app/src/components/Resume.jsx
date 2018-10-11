@@ -3,7 +3,7 @@ import Section from './Section'
 import WorkItem from './WorkItem'
 import Result from './Result'
 import SkillColumn from './SkillColumn'
-import Config from '../config/Ipreo.Devops.js'
+import Config from '../config/eChoppy.js'
 
 let skillsFirstRow = [ Config.skills[0], Config.skills[1] ]
 let skillsSecondRow = [ Config.skills[2], Config.skills[3] ]
