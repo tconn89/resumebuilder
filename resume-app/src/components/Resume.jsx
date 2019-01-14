@@ -15,8 +15,10 @@ class Resume extends Component {
               jobTitle={exp.jobTitle}
               dateRange={exp.dateRange}
               city={exp.city}
-              state={exp.state}>
+              state={exp.state}
+              skills={exp.skills}>
                 {exp.results.map((result, j) => (<Result key={j} text={result}/>))}
+              
             </WorkItem>))
           }
         </Section>

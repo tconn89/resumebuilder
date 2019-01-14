@@ -18,6 +18,7 @@ class Section extends Component {
           <ul>
             { props.children }
           </ul>
+          <p className='skills'>{ props.skills }</p>
         </div>
       </div>
     );

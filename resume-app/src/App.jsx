@@ -126,9 +126,10 @@ class App extends Component {
                     padding-inline-start: 25px;
             margin: 0;
           }
-          .description ul:last-child {
+          .skills {
             list-style-type: none;
             font-style: italic;
+            margin: 0;
           }
 
           .description li {
