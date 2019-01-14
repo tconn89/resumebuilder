@@ -5,15 +5,16 @@ export default {
 
   experience: [
     {
-      company: 'Coffeelux',
+      company: 'CoffeeLux',
       jobTitle: 'Freelance Developer',
       dateRange: 'nov 2017 - Current',
       city: 'Raleigh',
       state: 'NC',
       skills: '(React, React Native, Nodejs, Firebase, MongoDB, Material UI)', 
       results: [
+                'Sharpen look and feel of inventory app for Yuneva client in both Android and iOS.',
                 'Prototyped geolocation app with React Native advertising client.  Users can view their route activity on a dashboard.',
-                'Connected to Gmaps API to draw maps and Polylines for users to build a journal of biking history.',
+                'Connected to Gmaps API to draw maps for users to build a journal of biking history.',
                 'Developed another React web app that displays coffee consumption data (GPS Location and number of cups per day).',
                 'Enabled the app to generate widgets that can be embedded in other websites like Wordpress.',
                 'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.',
@@ -30,7 +31,6 @@ export default {
                 'Given the provided UX mockups, executed an android software solution with React Native.',
                 'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
                 'Saved patient data in offline mobile Realm cache until a network connection was established',
-                'Managed multiple branches of our React Native build for different clients.',
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Structured and validated our patient data pipeline from start to finish.',
@@ -81,7 +81,7 @@ export default {
       city: 'Raleigh',
       state: 'NC',
       skills: '(Windows, Balsamiq, AutoHotkey, CSS3)',
-      results: ['Ensure confidence in medical imaging software.  The tool helps radiologists diagnose cancer and other illnesses.',
+      results: ['Coordinate feedback on an imaging tool for radiologists to diagnose cancer',
                 "Tested UI and 3rd party integrations like Dragon Dictation.",
                 'Built and presented mock-ups for UI solutions. ',
                 'Troubleshooted errors in Chrome developer tools.',
