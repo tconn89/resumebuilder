@@ -1,7 +1,7 @@
 
 export default {
-  date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  date: '10/16/18',
+  profile: 'Looking for a competitive company to make an impact on the IT industry.',
 
   experience: [
     {
@@ -10,11 +10,12 @@ export default {
       dateRange: 'feb 2018 - sept 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Given the provided UX mockups, executed an android software solution with React Native.',
-                'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
+      results: [
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Managed a Node server and oversaw improvements in error handling and readability.',
+                'Given the provided UX mockups, executed an android software solution with React Native.',
+                'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
                 'Structured and validated our patient data pipeline from start to finish.']
     },
     {
@@ -23,9 +24,12 @@ export default {
       dateRange: 'nov 2017 - feb 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Learned React through a collection of projects including a dashboard that displays coffee consumption data (GPS Location and number of cups per day).',
+      results: ["Manage security with SSL through Nginx and Let's Encrypt",
+                'Encapsulated our production server inside a docker container for improved performance and automation.',
+                'Learned React through a collection of projects including a dashboard that displays coffee consumption data (GPS Location and number of cups per day).',
                 'Enabled the app to generate widgets that can be embedded in other websites like Wordpress.',
-                'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.']
+                'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.',
+                ]
     },
     {
       company: 'Techdrone',
@@ -48,28 +52,7 @@ export default {
                 'Improved performance on Postgres database queries.']
     },
   ],
-  skills: [{
-    name: 'Frontend',
-    list: [ {name: 'React', stars: 5},
-            {name: 'React Native', stars: 5},
-            {name: 'Responsive Design', stars: 5},
-            {name: 'Dashboards', stars: 5},
-          ]
-  },
-  {
-    name: 'Backend',
-    list: [ {name: 'Node JS', stars: 5},
-            {name: 'Data Management', stars: 5},
-            {name: 'SQL', stars: 5},
-            {name: 'Unix', stars: 4}]
-    },
-    {
-      name: 'General',
-      list: [ {name: 'Inventory Management', stars: 5},
-              {name: 'Problem Solving', stars: 5},
-              {name: 'User Experience', stars: 4},
-              {name: 'Game Theory', stars: 4}]
-    },
+  skills: [
     {
       name: 'Dev-ops',
       list: [ {name: 'Nginx', stars: 5},
@@ -77,6 +60,28 @@ export default {
               {name: 'Firebase', stars: 4},
               {name: 'AWS', stars: 3},
             ]
-    }
+    },
+    {
+      name: 'Backend',
+      list: [ {name: 'Node JS', stars: 5},
+              {name: 'Data Management', stars: 5},
+              {name: 'SQL', stars: 5},
+              {name: 'Unix', stars: 5}]
+    },
+    {
+    name: 'Frontend',
+    list: [ {name: 'React', stars: 5},
+            {name: 'React Native', stars: 5},
+            {name: 'Dashboards', stars: 5},
+            {name: 'Asynchronous Events', stars: 5}],
+
+  },
+    {
+      name: 'General',
+      list: [ {name: 'Inventory Management', stars: 5},
+              {name: 'Problem Solving', stars: 5},
+              {name: 'User Experience', stars: 4},
+              {name: 'Game Theory', stars: 4}]
+    },
 ],
 }

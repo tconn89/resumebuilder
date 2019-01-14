@@ -10,7 +10,7 @@ class App extends Component {
 
           body{
             box-sizing: border-box;
-            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.65;': ''}
+            ${process.env.NODE_ENV === 'production' ? 'zoom: 0.6;': ''}
             font-family: arial;
             background: #fff;
           }
@@ -55,7 +55,7 @@ class App extends Component {
           }
 
           .Margin {
-            padding: 80px 40px;
+            padding: 60px 40px;
             padding-bottom: 0;
           }
           .icon { 
@@ -129,7 +129,7 @@ class App extends Component {
 
           .description li {
             font-size: 16px;
-            line-height: 18px;
+            line-height: 19px;
           }
           #title-name {
             font-size:2em;

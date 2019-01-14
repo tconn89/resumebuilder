@@ -1,7 +1,7 @@
 
 export default {
-  date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  date: '10/15/18',
+  profile: 'Looking for a competitive company to make an impact on the IT industry.',
 
   experience: [
     {
@@ -10,20 +10,26 @@ export default {
       dateRange: 'feb 2018 - sept 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Given the provided UX mockups, executed an android software solution with React Native.',
+      results: [
+                'Given the provided UX mockups, executed an android software solution with React Native.',
                 'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
+                'Saved patient data in offline mobile Realm cache until a network connection was established',
+                'Managed multiple branches of our React Native build for different clients.',
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
-                'Managed a Node server and oversaw improvements in error handling and readability.',
-                'Structured and validated our patient data pipeline from start to finish.']
+                'Structured and validated our patient data pipeline from start to finish.',
+                '(React Native, Jest, Unix, Node, AWS, MySQL, Jenkins)'
+              ]
     },
     {
       company: 'Coffeelux',
       jobTitle: 'Freelance Developer',
-      dateRange: 'nov 2017 - feb 2018',
+      dateRange: 'nov 2017 - Current',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Learned React through a collection of projects including a dashboard that displays coffee consumption data (GPS Location and number of cups per day).',
+      results: ['Prototyping geolocation app with React Native to collect bike route data.  Users can view their route activity on a dashboard.',
+                'Connected to Gmaps API to draw maps and Polylines for users to build a journal of biking history.',
+                'Developed another React web app that displays coffee consumption data (GPS Location and number of cups per day).',
                 'Enabled the app to generate widgets that can be embedded in other websites like Wordpress.',
                 'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.']
     },
@@ -47,14 +53,25 @@ export default {
                 'Cultivated a user preference feature for improved paginated results and better UX.',
                 'Improved performance on Postgres database queries.']
     },
+    {
+      company: 'Custom Communications',
+      jobTitle: 'Software Developer',
+      dateRange: 'July 2016 - April 2017',
+      city: 'Garner',
+      state: 'NC',
+      results: ['Build and Maintain internal workflow app for managing inventory and dispatching technicians.',
+                'Created Angular directives (javascript) for building forms and handling user interaction.',
+                'Cultivated a user preference feature for improved paginated results and better UX.',
+                'Improved performance on Postgres database queries.']
+    },
   ],
   skills: [{
     name: 'Frontend',
     list: [ {name: 'React', stars: 5},
             {name: 'React Native', stars: 5},
-            {name: 'Responsive Design', stars: 5},
             {name: 'Dashboards', stars: 5},
-          ]
+            {name: 'Realm', stars: 5},
+            {name: 'Asynchronous Event Management', stars: 5}]
   },
   {
     name: 'Backend',
@@ -72,10 +89,11 @@ export default {
     },
     {
       name: 'Dev-ops',
-      list: [ {name: 'Nginx', stars: 5},
+      list: [ 
+              {name: 'Gradle', stars: 5},
+              {name: 'Nginx', stars: 5},
               {name: 'Lets Encrypt', stars: 5},
               {name: 'Firebase', stars: 4},
-              {name: 'AWS', stars: 3},
             ]
     }
 ],

@@ -1,7 +1,7 @@
 
 export default {
   date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  profile: 'Looking for a competitive IT company to make the Ethereum network more viable.',
 
   experience: [
     {
@@ -16,6 +16,17 @@ export default {
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Managed a Node server and oversaw improvements in error handling and readability.',
                 'Structured and validated our patient data pipeline from start to finish.']
+    },
+    {
+      company: 'Sociable Shops',
+      jobTitle: 'Freelance Developer',
+      dateRange: 'feb 2017 - april 2018',
+      city: 'Raleigh',
+      state: 'NC',
+      results: ['Integrated a React ecommerce app with microservices to track real time inventory and connect with Stripe payment service.',
+                'Developed shopping cart/drawer functionality and styles.  Site is 100% responsive.',
+                'Connect admin users to oauth logins with Google.',
+                'Deployed temporary flash sales sites using Netlify.']
     },
     {
       company: 'Coffeelux',

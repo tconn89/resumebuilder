@@ -1,7 +1,7 @@
 
 export default {
-  date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  date: '10/15/18',
+  profile: 'Looking for a competitive company to grow as a developer.',
 
   experience: [
     {
@@ -10,8 +10,8 @@ export default {
       dateRange: 'feb 2018 - sept 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Given the provided UX mockups, executed an android software solution with React Native.',
-                'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
+      results: ['Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
+                'Given the provided UX mockups, executed an android software solution with React Native.',
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Managed a Node server and oversaw improvements in error handling and readability.',
@@ -54,7 +54,7 @@ export default {
             {name: 'React Native', stars: 5},
             {name: 'Responsive Design', stars: 5},
             {name: 'Dashboards', stars: 5},
-          ]
+            {name: 'Asynchronous Events', stars: 5}]
   },
   {
     name: 'Backend',
@@ -74,8 +74,8 @@ export default {
       name: 'Dev-ops',
       list: [ {name: 'Nginx', stars: 5},
               {name: 'Lets Encrypt', stars: 5},
-              {name: 'Firebase', stars: 4},
-              {name: 'AWS', stars: 3},
+              {name: 'AWS', stars: 4},
+              {name: 'Firebase', stars: 3},
             ]
     }
 ],

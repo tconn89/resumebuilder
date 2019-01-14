@@ -1,7 +1,7 @@
 
 export default {
-  date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  date: '10/16/18',
+  profile: 'Looking for a competitive blockchain company to build decentralized apps on Ethereum.',
 
   experience: [
     {
@@ -25,7 +25,8 @@ export default {
       state: 'NC',
       results: ['Learned React through a collection of projects including a dashboard that displays coffee consumption data (GPS Location and number of cups per day).',
                 'Enabled the app to generate widgets that can be embedded in other websites like Wordpress.',
-                'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.']
+                'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.',
+                "Manage security with SSL through Nginx and Let's Encrypt"]
     },
     {
       company: 'Techdrone',
@@ -54,14 +55,15 @@ export default {
             {name: 'React Native', stars: 5},
             {name: 'Responsive Design', stars: 5},
             {name: 'Dashboards', stars: 5},
-          ]
+            {name: 'Asynchronous Events', stars: 5}],
+
   },
   {
     name: 'Backend',
     list: [ {name: 'Node JS', stars: 5},
             {name: 'Data Management', stars: 5},
             {name: 'SQL', stars: 5},
-            {name: 'Unix', stars: 4}]
+            {name: 'Unix', stars: 5}]
     },
     {
       name: 'General',

@@ -1,7 +1,7 @@
 
 export default {
   date: '10/03/18',
-  profile: 'Looking for a competitive security company to make the internet a safer place for companies.',
+  profile: 'Looking for a competitive IT company to make an impact on the open source industry.',
 
   experience: [
     {
@@ -10,12 +10,24 @@ export default {
       dateRange: 'feb 2018 - sept 2018',
       city: 'Raleigh',
       state: 'NC',
-      results: ['Given the provided UX mockups, executed an android software solution with React Native.',
+      results: [
                 'Crafted a calendar management tool for medical and patient health purposes in reaction to the Opioid Epidemic.',
                 'Created a Test environment to back-up company data in Amazon Web Services (AWS). Created Master and Slave relationship in RDS instance using MYSQL',
                 'Built and debugged a Jenkins server to compile, build and test our source code.',
                 'Managed a Node server and oversaw improvements in error handling and readability.',
-                'Structured and validated our patient data pipeline from start to finish.']
+                'Structured and validated our patient data pipeline from start to finish.',
+              ]
+    },
+    {
+      company: 'Sociable Shops',
+      jobTitle: 'Freelance Developer',
+      dateRange: 'feb 2017 - april 2018',
+      city: 'Raleigh',
+      state: 'NC',
+      results: ['Integrated a React ecommerce app with microservices to track real time inventory and connect with Stripe payment service.',
+                'Developed shopping cart/drawer functionality and styles.  Site is 100% responsive.',
+                'Connect admin users to oauth logins with Google.',
+                'Deployed temporary flash sales sites using Netlify.']
     },
     {
       company: 'Coffeelux',
@@ -34,6 +46,7 @@ export default {
       city: 'Raleigh',
       state: 'NC',
       results: ['Build a RESTFUL API in Node js for saving and loading game data including terrain, trees, houses, roads, and spawn points.',
+                'Encapsulated our production server inside a docker container for improved performance and automation.',
                 'Integrated the API into a Unity client and constructed all the login and world menu forms to consume my backend.']
     },
     {
