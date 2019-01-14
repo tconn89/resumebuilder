@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Section from './Section'
 import WorkItem from './WorkItem'
 import Result from './Result'
-import Config from '../config/Ebsco'
+import Config from '../config/Current'
 
 class Resume extends Component {
   render() {

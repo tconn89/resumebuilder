@@ -1,3 +1,13 @@
+## Install
+```bash
+# root directory install
+npm i
+
+# sub project install
+cd resume-app && npm i
+```
+
+
 ## Usage
 First, generate an html file of the current resume.  You should see some output of the html file created.
 `npm run build`
@@ -14,7 +24,4 @@ html-pdf output/test1.html output/pdf/resume.pdf
 If you'd like to change the content of the resume, edit one of the configuration files.  For example `resume-app/src/config/Distil.js`
 
 ## Issues
-[x] Need to use Auto prefixer for `html-pdf` to understand flex styles. - See https://autoprefixer.github.io/  
-
-[x] Rendered content in PDF is too big.  Use Zoom 0.55 in css as workaround  
-[x] Icons zoom differently than text
+[x] Not working on Mac OS Mojave

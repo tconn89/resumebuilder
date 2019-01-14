@@ -126,6 +126,10 @@ class App extends Component {
                     padding-inline-start: 25px;
             margin: 0;
           }
+          .description ul:last-child {
+            list-style-type: none;
+            font-style: italic;
+          }
 
           .description li {
             font-size: 16px;
