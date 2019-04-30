@@ -37,7 +37,7 @@ class Resume extends Component {
         </Section>
         <Section title="References">
           <div style={{padding: '8px'}}>
-            <div>Porfolio is available at https://tyconnors.com</div>
+            <div>Porfolio is available at http://tyconnors.com</div>
             <div>References available upon request.</div>
           </div>
         </Section>

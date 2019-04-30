@@ -12,12 +12,12 @@ export default {
       state: 'NC',
       skills: '(React, React Native, Nodejs, Firebase, MongoDB, Material UI)', 
       results: [
-                'Sharpen look and feel of inventory app for Yuneva client in both Android and iOS.',
-                'Prototyped geolocation app with React Native advertising client.  Users can view their route activity on a dashboard.',
+                'Build Android and iOS apps from the ground up using React-Native',
+                'Developed key features in warehouse inventory mobile app, including calculator, advanced search, custom form behavior and more.',
+                'Implemented localization and I18n language translation in React-Native',
+                'Integrate complex external libraries like Google Admob for advertising, and a tabview library for UX friendly menus.',
+                'Prototyped geolocation tracking app with React Native.  Users can view their route activity on a dashboard.',
                 'Connected to Gmaps API to draw maps for users to build a journal of biking history.',
-                'Developed another React web app that displays coffee consumption data (GPS Location and number of cups per day).',
-                'Enabled the app to generate widgets that can be embedded in other websites like Wordpress.',
-                'Connected to a custom RESTFUL Node JS API that managed coffee data in MongoDB.',
               ]
     },
     {
