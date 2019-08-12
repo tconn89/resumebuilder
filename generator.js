@@ -3,11 +3,10 @@ require('babel-register')({
 });
 
 const fs = require('fs')
-let React = require('react');
-let ReactDomServer = require('react-dom/server');
-let Resume = require('./resume-app/src/App')
+const React = require('react');
+const ReactDomServer = require('react-dom/server');
+const Resume = require('./resume-app/src/App')
 
-let html = ReactDomServer.renderToString(React.createElement(Resume.default))
-let files = fs.readdirSync('output')
-fs.writeFileSync(`output/test${files.length}.html`, html)
-console.log(`writing test${files.length}.html`);
+const html = ReactDomServer.renderToString(React.createElement(Resume.default))
+fs.writeFileSync(`output/test1.html`, html)
+console.log(`writing test1.html`);
