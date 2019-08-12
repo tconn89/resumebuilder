@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Section from './Section'
 import WorkItem from './WorkItem'
 import Result from './Result'
-import Config from '../config/Current'
+import Config from '../config/Ndustrial'
 
 class Resume extends Component {
   render() {
