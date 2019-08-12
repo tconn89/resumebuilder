@@ -3,5 +3,5 @@ export default {
   phone: '(919) 205 8593',
   email: 'ty@coffeelux.club',
   address: 'Raleigh, NC',
-  role: 'Fullstack Developer'
+  role: 'Mobile and Web Developer'
 }
