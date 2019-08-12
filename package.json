@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && npm run buildres",
     "start": "NODE_ENV=production node server.js",
     "build": "NODE_ENV=production node generator.js",
-    "buildres":"html-pdf output/test2.html output/pdf/letter.pdf",
+    "buildres":"html-pdf output/test1.html output/pdf/letter.pdf",
     "open": "open output/pdf/letter.pdf",
     "copy": "cp output/pdf/letter.pdf $downloads/resume"
   },
