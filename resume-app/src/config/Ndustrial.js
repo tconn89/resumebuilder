@@ -10,14 +10,14 @@ export default {
       dateRange: 'nov 2017 - feb 2018',
       city: 'Raleigh',
       state: 'NC',
-      skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI)', 
+      skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI, Expo)', 
       results: [
         'Prototyped mobile app for iOS and Android - Staffing App - Client agency need for matching people with careers.  Built a product that matched their needs.',
-        'Launched PURRSONALITY CATS on mobile iOS and Android store.  The game is personality quiz meets Tamagotchi cats.  Made a small return on ad revenue with plans to extend the game.',
+        'Launched PURRSONALITY CATS on mobile iOS and Android store.  The game is personality quiz meets Tamagotchi cats.  Made a return on ad revenue with plans to extend the game.',
         'Develop and advise for B2B warehouse company Yuneva.  They have multiple mobile/dashboard solutions to help companies with large inventory problems.',
-        'Consult young founders on how to approach app development.  Network in the HQ Raleigh, Nest and WeWork communities.',
-        'Manage production systems in Linux Ubuntu 16.  Access server logs to debug problems.',
-        'Responsible for multiple concurrent projects.  Realize the vision behind the product and able to dive deep into the software.',
+        'Consult young founders on how to approach app development.  Network in the HQ Raleigh, Nest and WeWork coworking communities.',
+        'Manage production systems in Linux Ubuntu 16.  Oversee product delivery to clients.',
+        'Responsible for multiple concurrent projects.  Realize the vision behind the service and able to dive deep into the software.',
       ]
     },
     {
