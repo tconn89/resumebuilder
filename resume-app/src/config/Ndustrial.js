@@ -12,10 +12,10 @@ export default {
       state: 'NC',
       skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI, Expo)', 
       results: [
-        'Prototyped mobile app for iOS and Android - Staffing App - Satisfy agency need for matching people with careers.  Created web portal for admin dashboard to manage job seekers.',
         'Launched PURRSONALITY CATS on mobile iOS and Android store.  The game is personality quiz meets Tamagotchi cats.  Made a return on ad revenue with plans to extend the game.',
         'Develop and advise for B2B warehouse company Yuneva.  They have multiple mobile/dashboard solutions to help companies with large inventory problems.',
         'Consult young founders on how to approach app development.  Network in the HQ Raleigh, Nest and WeWork coworking communities.',
+        'Prototyped mobile app for iOS and Android - Staffing App - Satisfy agency need for matching people with careers.  Created web portal for admin dashboard to manage job seekers.',
         'Manage production systems in Linux Ubuntu 16.  Oversee product delivery to clients.',
         'Responsible for multiple concurrent projects.  Realize the vision behind the service and able to dive deep into the software.',
       ]
