@@ -12,7 +12,7 @@ export default {
       state: 'NC',
       skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI, Expo, Angular JS, PHP, MYSQL)', 
       results: [
-        'Created an experiments dashboard for Brooks Bell called Illumniate.  Helps track ideas and insights to improve usability of but is versatile enough for most experiment tracking.',
+        'Created an experiments dashboard for Brooks Bell called Illumniate.  Helps track ideas and insights to improve usability for A/B testing. The platform is versatile and can accomodate most types of experiment tracking.',
         'Added features to the SchedulePop web app for ranking employees and managing their certifications.  Their scheduler now intelligently blocks workers from working a shift if they have an expired cert.',
         'Launched mobile app for iOS and Android - Staffing App - Satisfy agency need for matching people with careers.  Created web portal for admin dashboard to manage job seekers.',
         'Launched PURRSONALITY CATS on mobile iOS and Android store.  The game is personality quiz meets Tamagotchi cats.  Made a return on ad revenue with plans to extend the game.',
