@@ -7,7 +7,7 @@ export default {
     {
       company: 'Coffeelux',
       jobTitle: 'Freelance Developer',
-      dateRange: 'nov 2017 - current',
+      dateRange: 'nov 2017 - PRESENT',
       city: 'Raleigh',
       state: 'NC',
       skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI, Expo, Angular JS, PHP, MYSQL)', 
