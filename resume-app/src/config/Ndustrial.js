@@ -1,7 +1,7 @@
 
 export default {
-  date: '01/23/20',
-  profile: 'Helping hungry startups make an impact in Raleigh and hopefully the world.',
+  date: '05/05/20',
+  profile: 'Helping startups make an impact in Raleigh, and with time, the world.',
 
   experience: [
     {
@@ -12,12 +12,12 @@ export default {
       state: 'NC',
       skills: '(React, React Native, Nodejs, GraphQL, Firebase, Material UI, Expo, Angular JS, PHP, MYSQL)', 
       results: [
+        'Created an experiments dashboard for Brooks Bell called Illumniate.  Helps track ideas and insights to improve usability of but is versatile enough for most experiment tracking.',
+        'Added features to the SchedulePop web app for ranking employees and managing their certifications.  Their scheduler now intelligently blocks workers from working a shift if they have an expired cert.',
         'Launched mobile app for iOS and Android - Staffing App - Satisfy agency need for matching people with careers.  Created web portal for admin dashboard to manage job seekers.',
         'Launched PURRSONALITY CATS on mobile iOS and Android store.  The game is personality quiz meets Tamagotchi cats.  Made a return on ad revenue with plans to extend the game.',
         'Active feature development for client demands on much needed services such as scheduling, ERP systems, resource management, inventory management, and location tracking services.',
         'Develop and advise for B2B warehouse company Yuneva.  They have multiple mobile/dashboard solutions to help companies with large inventory problems.',
-        'Manage production systems in Linux Ubuntu 16.  Oversee product delivery to clients.',
-        'Responsible for multiple concurrent projects.  Realize the vision behind the service and able to dive deep into the software.',
       ]
     },
     {
