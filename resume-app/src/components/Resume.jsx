@@ -35,12 +35,14 @@ class Resume extends Component {
             <Result text='Competed in Nationals for club Ultimate Frisbee'/>
           </WorkItem>
         </Section>
+        { /*
         <Section title="References">
           <div style={{padding: '8px'}}>
             <div>Porfolio is available at http://tyconnors.com</div>
             <div>References available upon request.</div>
           </div>
         </Section>
+        */}
       </div>
     );
   }
