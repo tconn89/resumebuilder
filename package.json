@@ -19,7 +19,7 @@
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "html-pdf": "^2.1.0",
+    "html-pdf": "^3.0.1",
     "http": "0.0.0",
     "phantomjs-prebuilt": "^2.1.13",
     "react": "^16.4.2",
